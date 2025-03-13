@@ -37,7 +37,6 @@ dataset/
 
 
 ## Codigo:
-///
 import tensorflow as tf
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.layers import Dense, Flatten
@@ -75,5 +74,3 @@ model.fit(train_generator, steps_per_epoch=train_generator.n//train_generator.ba
 
 # Salvar o modelo treinado
 model.save('meu_modelo_transfer_learning.h5')
-
-///
